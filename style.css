@@ -3,3 +3,17 @@
     font-size:36px;
     text-align:center;
 }
+.inline-div {
+    display: block;
+    text-align: center;
+  }
+  
+  h3
+  {
+    display: inline-block;
+    text-align: center;
+  }
+  .rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
