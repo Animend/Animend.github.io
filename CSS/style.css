@@ -1,19 +1,33 @@
-.title{
-    font-family:cursive;
-    font-size:36px;
-    text-align:center;
+.title {
+  font-family: cursive;
+  font-size: 36px;
+  text-align: center;
 }
-.inline-div {
-    display: block;
-    text-align: center;
-  }
-  
-  h3
-  {
-    display: inline-block;
-    text-align: center;
-  }
-  .rounded {
-    border-top: 8px solid #bbb;
-    border-radius: 5px;
-  }
+.spaceparent {
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.spacechild {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7%;
+}
+.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+.spacechild2 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+}
+
+a:link, a:visited,  a:hover:after, a:active
+{
+    color: Orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color:Black;
+}
